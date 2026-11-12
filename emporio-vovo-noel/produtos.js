@@ -1,4 +1,3 @@
-/* Catálogo: 50 produtos (array de objetos). Carregar ANTES de script.js */
 const produtos = [
   {id: 1, nome: "Panetone da Vovó Noel", categoria: "Panetones e Chocotones", preco: 54.9, imagem: "https://images.tcdn.com.br/img/img_prod/795791/panetone_de_frutas_cristalizadas_italianas_com_chocolate_branco_natal_tradicional_caminho_da_fazenda_1237_3_4e8abc46030ab7b913d078c536e9e2a0.jpg", descricao: "Receita de caderno antigo: frutas cristalizadas e muito carinho na massa.", destaque: true},
   {id: 2, nome: "Chocotone Lareira", categoria: "Panetones e Chocotones", preco: 49.9, imagem: "https://www.padariavianney.com.br/web/image/product.image/1962/image_1024/Chocottone%20chocolate%20trufado?unique=79939e9", descricao: "Gotas de chocolate que derretem como a lareira acesa.", destaque: true},
@@ -51,6 +50,4 @@ const produtos = [
   {id: 49, nome: "Chocolate Branco Boneco de Neve", categoria: "Bebidas e Chocolates", preco: 18.9, imagem: "https://tshop.r10s.com/794/f05/b9cd/800f/0302/0060/9819/4ffcd09e6de41afe2df8f9.jpg", descricao: "Boneco de chocolate branco com cachecol de glacê.", destaque: false},
   {id: 50, nome: "Latinha Retrô de Bombons", categoria: "Bebidas e Chocolates", preco: 44.9, imagem: "https://static.wixstatic.com/media/3f19a8_bb0172bf54e64afea99eb8c6dcd5251a~mv2.jpg/v1/fill/w_516%2Ch_574%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/3f19a8_bb0172bf54e64afea99eb8c6dcd5251a~mv2.jpg", descricao: "Latinha de coleção, cheia de bombons sortidos.", destaque: false},
 ];
-
-// Disponibiliza o catálogo para o script principal.
 window.produtos = produtos;
