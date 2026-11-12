@@ -1,0 +1,27 @@
+/* Mobile-first: o estilo base vale para o celular */
+.grade-produtos{grid-template-columns:1fr}
+.menu{display:none;width:100%;flex-direction:column}
+.menu.aberto{display:flex}
+.btn-menu{display:inline-block}
+.hero-texto h1{font-size:2.3rem}
+h1{font-size:2rem}
+.papel{margin:1rem .5rem;padding:1rem}
+.contagem{font-size:1.4rem}
+.galeria{grid-template-columns:repeat(2,minmax(0,1fr))}
+/* Tablet */
+@media (min-width:600px){
+ .grade-produtos{grid-template-columns:repeat(2,1fr)}
+ .slide.ativo{grid-template-columns:1fr 1fr}
+ .trio{grid-template-columns:repeat(3,1fr)}
+ .galeria{grid-template-columns:repeat(3,1fr)}
+ .papel{margin:1.5rem auto}
+}
+/* Desktop */
+@media (min-width:992px){
+ .grade-produtos{grid-template-columns:repeat(4,1fr)}
+ .menu{display:flex;flex-direction:row;width:auto}
+ .btn-menu{display:none}
+ .hero-texto h1{font-size:3.6rem}
+ .galeria{grid-template-columns:repeat(4,1fr)}
+ .contagem{font-size:2.2rem}
+}

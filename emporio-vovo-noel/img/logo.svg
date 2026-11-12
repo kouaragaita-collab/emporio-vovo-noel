@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="t d">
+<title id="t">Empório da Vovó Noel</title><desc id="d">Pinheiro verde dentro de um medalhão redondo de madeira, com estrelas douradas.</desc>
+<defs><radialGradient id="wood"><stop stop-color="#b87943"/><stop offset="1" stop-color="#63351f"/></radialGradient><linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff0b3"/><stop offset="1" stop-color="#c28a32"/></linearGradient></defs>
+<circle cx="110" cy="110" r="104" fill="url(#wood)" stroke="#f1d99b" stroke-width="5"/><circle cx="110" cy="110" r="91" fill="#fff6df" stroke="#7b4828" stroke-width="4"/>
+<path d="M110 30 78 77h18L65 112h29l-35 39h102l-35-39h29l-31-35h18z" fill="#1d603b" stroke="#12452b" stroke-width="3" stroke-linejoin="round"/><path d="M102 151h16v25h-16z" fill="#81502e"/><path d="M110 45v104" stroke="#e8bd52" stroke-width="3"/><path d="m110 36 5 10 11 1-8 7 2 11-10-5-10 5 2-11-8-7 11-1z" fill="url(#gold)"/>
+<circle cx="82" cy="91" r="5" fill="#d94738"/><circle cx="135" cy="112" r="5" fill="#d94738"/><circle cx="95" cy="132" r="5" fill="#e0b54d"/><circle cx="126" cy="78" r="4" fill="#e0b54d"/>
+<path d="M34 110h13M173 110h13" stroke="#c28a32" stroke-width="3" stroke-linecap="round"/>
+</svg>
